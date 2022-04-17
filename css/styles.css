@@ -1,0 +1,232 @@
+:root {
+  --header-color: #ffffff;
+  --title-color: #212121;
+  --btn-color:#2196F3;
+  --contact-color:#757575;
+  --main-content-color:#757575;
+  --accent-color:#2196F3;
+  --background-color:#F5F4FA; 
+
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.list {
+  list-style:none;
+}
+.link {
+ text-decoration: none;
+}
+
+.header-link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--title-color);
+}
+.header-link:hover, 
+.header-link:focus {
+  color: var(--accent-color);
+}
+
+[href="mailto:info@devstudio.com"] {
+  color: var(--contact-color) 
+}
+[ href="tel:+380961111111"] {
+  color: var(--contact-color);
+}
+/* --------------------------header---------------------- */
+.header-logo {
+font-weight: 700;
+font-family: 'Raleway', sans-serif;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: var(--accent-color);
+}
+.header-logo-part {
+font-weight: 700;
+font-family: inherit, sans-serif;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: var(--title-color) ;  
+}
+.contact-link {
+  font-weight: 500;
+  font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+  color:var(--contact-color);
+}
+.contact-link:hover, 
+.contact-link:focus {
+  color:var(--accent-color);
+}
+.curent {
+  color:var(--accent-color)
+}
+/* hero */
+.hero {
+  background-color:  #2F303A;
+ color: var(--header-color)
+}
+.hero-text {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color:var(--header-color);
+}
+
+
+.hero-btn {
+  font-weight: 700;
+font-family:inherit
+font-size: 16px;
+line-height: 1.87;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+cursor: pointer;
+color: var(--header-color);
+background-color: var(--btn-color)
+}
+.hero-btn:hover, .hero-btn:focus-visible {
+  background-color: #1b8be7;
+}
+
+.features-title {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--title-color);
+}
+
+.features-text {
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--main-content-color);
+}
+.work-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+  }
+.our-team {
+background: var(--background-color);
+}  
+.team-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--title-color);
+  }
+
+
+.team-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  
+  color: var(--title-color);
+}
+.team-job {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-content-color);
+}
+/* --------------------------------footer-------------------- */
+.footer {
+  background-color:  #2F303A;;
+}
+.footer-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+  }
+  .footer-logo-part {
+  font-family: inherit, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--header-color) ;  
+  }
+  .address {
+font-style: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+
+color: var(--header-color);
+  }
+.contacts {
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+  }
+  .contacts:hover,
+  .contacts:focus {
+    color: var(--header-color);
+  } 
+  /*------------- Main Portfolio----------------------- */
+  .hero-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+    background: var(--background-color);
+    cursor: pointer;
+  }
+  .crnt {
+ background: var(--btn-color);
+    color: var(--background-color);
+  }
+  .hero-button:hover {
+    background:var(--btn-color);
+    color: var(--background-color);
+  }
+  .hero-button:focus 
+  
+.portfolio: {
+ color: var(--title-color)
+}
+.project-title {
+font-weight: 700;
+font-size: 18px;
+line-height: 2.0;
+letter-spacing: 0.06em;
+color: var(--title-color);
+}
+.project-text {
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+color: var(--main-content-color);
+}

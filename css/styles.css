@@ -26,7 +26,9 @@ button {
 img {
   display: block;
 }
-
+address {
+  margin-top: 20px;
+}
 .link {
  text-decoration: none;
 }
@@ -264,17 +266,17 @@ background-color: #ffffff;
   letter-spacing: 0.03em;
   color: var(--header-color) ;  
   } 
-.footer-list:not(:last-child) {
-  margin-bottom: 9px;
-}
+
 .address {
-/* margin-top: 20px; */
 font-style: normal;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: var(--header-color);
   }
+.contacts-link:not(:first-child) {
+  margin-top: 9px;
+}
 .contacts {
 font-style: normal;
 font-size: 14px;
@@ -289,8 +291,6 @@ color: rgba(255, 255, 255, 0.6);
 
   /*------------- Main Portfolio----------------------- */
   .portfolio {
-   padding-top: 119px;
-   padding-bottom: 94px;
    color: var(--title-color)
   }
   .visually-hidden {
@@ -305,12 +305,15 @@ color: rgba(255, 255, 255, 0.6);
     clip: rect(0 0 0 0);
     overflow: hidden;
     }
-    .button {
+    .button-list {
       display: flex;
-      margin-left: 495px;
+      justify-content: center;
     }
+    .button {
+border-radius: 4px;
+border: 0;
+}
  .hero-button {
-   db
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -325,36 +328,40 @@ color: rgba(255, 255, 255, 0.6);
  background: var(--btn-color);
     color: var(--background-color);
   }
-  .hero-button:hover {
+ .hero-button:not(:first-child) {
+    margin-left: 8px;
+  } 
+  .button:hover {
     background:var(--btn-color);
     color: var(--background-color);
   }
-  .hero-button:focus {
+  .button:focus {
     background:var(--btn-color);
     color: var(--background-color);
   }
-  .hero-button {
-    margin-left: 9px;
-  }
+  
 .portfolio-list {
   display: flex;
   flex-wrap: wrap; 
-
 margin-top: 34px;
-margin-left: 170px;
+margin-left: -30px;
 }
 .portfolio-card {
-  margin-left: 30px;
-  margin-bottom: 30px;
+  width: calc(100% / 3 - 30px);
+ margin-left: 30px;
+ margin-bottom: 30px;
+ background: #FFFFFF;
+border: 1px solid #EEEEEE;
 } 
-
+.portfolio-data {
+  margin: 20px 24px;
+}
 .project-title {
 font-weight: 700;
 font-size: 18px;
 line-height: 2.0;
 letter-spacing: 0.06em;
 color: var(--title-color);
-margin-top: 20px;
 }
 .project-text {
 font-size: 16px;

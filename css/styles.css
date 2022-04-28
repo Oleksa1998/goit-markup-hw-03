@@ -25,6 +25,7 @@ button {
 }
 img {
   display: block;
+  height: auto;
 }
 address {
   margin-top: 20px;
@@ -174,7 +175,6 @@ line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--title-color);
-
 }
 .features-item:not(:last-child) {
   margin-right: 30px;
@@ -203,8 +203,8 @@ max-width: 270px;
   margin-top: 50px;
   
   }
-  .work-img {
-   margin-right: 30px; 
+  .work-img:not(:first-child) {
+    margin-left: 30px;
   }
 .our-team {
 background: var(--background-color);
@@ -219,6 +219,7 @@ color: var(--title-color);
   }
   .team-list {
  display: flex;
+ margin-top: 50px;
   }   
   .team-card {
 background-color: #ffffff;
@@ -339,7 +340,7 @@ color: rgba(255, 255, 255, 0.6);
 .portfolio-list {
   display: flex;
   flex-wrap: wrap; 
-margin-top: 34px;
+margin-top: 50px;
 margin-left: -30px;
 }
 .portfolio-card {
